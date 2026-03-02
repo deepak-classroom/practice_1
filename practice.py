@@ -6,10 +6,10 @@
 
 # program to find the table of any number
 
-a = int(input("Enter Your Number; "))
+# a = int(input("Enter Your Number; "))
 
-for i in range(1, 11):
-    print(a*i)
+# for i in range(1, 11):
+#     print(a*i)
 # PROGRAM TO FIND THE GIVEN NUMBER AS PRIME NUMBER.
 
 # a = int(input("enter your number: "))
