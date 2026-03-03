@@ -54,18 +54,18 @@ import numpy as np
 # load_array = np.load('my_array.npy')
 # print(load_array)
 
-arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+# arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 
-#(Boolean indexing)
-bool_mask = arr > 5
-print("Elements > 5:\n", arr[bool_mask])
+# #(Boolean indexing)
+# bool_mask = arr > 5
+# print("Elements > 5:\n", arr[bool_mask])
 
-# (Fancy indexing) - integer arrays से index करना
-rows = np.array([0, 2])
-cols = np.array([1, 3])
-print("Selected elements:", arr[rows, cols])
+# # (Fancy indexing) - integer arrays से index करना
+# rows = np.array([0, 2])
+# cols = np.array([1, 3])
+# print("Selected elements:", arr[rows, cols])
 
-# व्हेयर (where) कंडीशन
-condition = arr > 7
-result = np.where(condition, arr, -1)  # condition true तो arr value, false तो -1
-print("Where condition:\n", result)
+# # व्हेयर (where) कंडीशन
+# condition = arr > 7
+# result = np.where(condition, arr, -1)  # condition true तो arr value, false तो -1
+# print("Where condition:\n", result)
