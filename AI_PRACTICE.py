@@ -69,3 +69,15 @@ import numpy as np
 # condition = arr > 7
 # result = np.where(condition, arr, -1)  # condition true तो arr value, false तो -1
 # print("Where condition:\n", result)
+
+#PROGRAM TO CONVERT CLECIUS TO FAHRENHEIT 
+
+# celsius = np.array([22, 25, 19, 30, 28, 24, 20])
+# fahrenheit = (celsius * 9/5) + 32
+
+# print(celsius) #Celsius 
+# print(fahrenheit) #Fahrenheit
+# print(np.mean(celsius)) #Average temperature:
+# print(np.max(celsius))  #Hottest day
+
+# Generate random number between 1 and 50
