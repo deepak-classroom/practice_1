@@ -81,3 +81,29 @@ import numpy as np
 # print(np.max(celsius))  #Hottest day
 
 # Generate random number between 1 and 50
+
+
+# Python list
+# guesses = [5, 10, 15, 20]
+# print(guesses * 2)  # [5, 10, 15, 20, 5, 10, 15, 20] (repeat karta hai)
+
+# NumPy array
+# guesses_np = np.array([5, 10, 15, 20])
+# print(guesses_np * 2)  # [10, 20, 30, 40] (har element multiply)
+
+
+# Game mein ye line:
+# np.abs(np.array(guesses) - secret)
+# Example:
+# guesses = np.array([10, 25, 40, 15])
+# secret = 20
+# result = guesses - secret  # [10-20, 25-20, 40-20, 15-20] = [-10, 5, 20, -5]
+
+# 2D array banate hain
+matrix = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+
+print(np.mean(matrix, axis=0))  # Har column ka mean: [4, 5, 6]
+print(np.mean(matrix, axis=1))  # Har row ka mean: [2, 5, 8]
+print(np.mean(matrix))          # Overall mean: 5
